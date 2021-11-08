@@ -19,4 +19,4 @@ jobs:
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
           port: 2002
-          server-dir: /domains/work-chair.com/public_html/demo/testgit
+          server-dir: ./domains/work-chair.com/public_html/demo/testgit
