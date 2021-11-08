@@ -41,6 +41,9 @@ inputs:
   security:
     required: false
     description: "strict or loose"
+runs:
+   using: "node12"
+   main: "index.php"
 branding:
   icon: "upload-cloud"
   color: "orange"
